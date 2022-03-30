@@ -17,6 +17,11 @@ public class AutomationQ9 {
 		////textarea[contains(@rows,'3')]
 		WebElement txtAddress = driver.findElement(By.xpath("//textarea[contains(@rows,'3')]"));
 		txtAddress.sendKeys("14 omr chennai");
+		WebElement txtFirstName1 = driver.findElement(By.xpath("//input[contains(@placeholder,'F')]"));
+		txtFirstName1.sendKeys("Anand");
+		////textarea[contains(@rows,'3')]
+		WebElement txtAddress1 = driver.findElement(By.xpath("//textarea[contains(@rows,'3')]"));
+		txtAddress1.sendKeys("14 omr chennai");
 	}
 
 }
